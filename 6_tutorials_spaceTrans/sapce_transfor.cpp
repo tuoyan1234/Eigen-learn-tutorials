@@ -2,7 +2,7 @@
  * @Author: tyz 1872516355@qq.com
  * @Date: 2026-04-22 21:42:20
  * @LastEditors: tyz 1872516355@qq.com
- * @LastEditTime: 2026-04-22 22:23:16
+ * @LastEditTime: 2026-04-22 22:28:08
  * @FilePath: /Eigen/6_tutorials_spaceTrans/sapce_transfor.cpp
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -94,9 +94,6 @@ int main(int argc, char *argv[])
     T_res.block<3,3>(0,0) = q_res.matrix();
     T_res.block<3,1>(0,3) = t_;
     std::cout << "T_res: " << std::endl << T_res << std::endl;
-
-
-
 
 	return 0;
 }
